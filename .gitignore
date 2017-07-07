@@ -1,5 +1,5 @@
-./idea
+.idea
 *.pyc
-./output_data
+.output_data
 rsync.py
-./threading_A3C
+.threading_A3C
