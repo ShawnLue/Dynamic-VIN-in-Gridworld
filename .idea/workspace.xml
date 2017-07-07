@@ -2,7 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3bda6bf-ec53-412f-a124-2685e46910b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/online_training_simulator_curriculum.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Curriculum log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/Env.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/agent/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/agent/agent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/agent/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/agent/checkpoint.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/agent/obstacle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/utils/collision_detect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Env/utils/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/a3c.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/agent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/a.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/vin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/threading_A3C/A3C.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/threading_A3C/A3C_training_thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/threading_A3C/AC_Network.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/threading_A3C/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/threading_A3C/rmsprop_applier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train_script.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/utils.py" afterPath="" />
     </list>
     <ignored path="online_training_simulator_curriculum.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +70,8 @@
         <entry file="file://$PROJECT_DIR$/Readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="748">
-                <caret line="49" column="86" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
+              <first_editor relative-caret-position="410">
+                <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -352,7 +386,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -770,8 +804,8 @@
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="748">
-            <caret line="49" column="86" selection-start-line="49" selection-start-column="86" selection-end-line="49" selection-end-column="86" />
+          <first_editor relative-caret-position="410">
+            <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />

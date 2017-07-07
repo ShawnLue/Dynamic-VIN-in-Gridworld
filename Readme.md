@@ -28,7 +28,8 @@ The `constants.py` defines all the hyper-parameters.
 1. Start training: `bash train_scipt.sh`
 2. Open tmux for monitoring: `tmux a -t a3c` (you can monitor each thread by switching tmux control pane: `ctrl + b, w`)
 3. Open tensorboard: \*\*.\*\*.\*\*.\*\*:15000
-4. Stop training: `ctrl + c`
+4. Check log: `less Curriculum log`
+5. Stop training: `ctrl + c`
 
 ## Requirements
 
