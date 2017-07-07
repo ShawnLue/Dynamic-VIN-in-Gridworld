@@ -1,5 +1,0 @@
-.idea
-*.pyc
-.output_data
-rsync.py
-.threading_A3C
