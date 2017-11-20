@@ -1,10 +1,10 @@
 # Learning to plan using dynamic VIN
 
-This is a variation of Value Iteration Network, NIPS 2016 [[arxiv](https://arxiv.org/abs/1602.02867)] .
+A variation of Value Iteration Network, NIPS 2016 [[arxiv](https://arxiv.org/abs/1602.02867)] .
 
-The main idea building upon original VIN, is to iterate a generated step-wise reward map in the value-iteration loop, for learning to plan in a dynamic scene. This work can be combined with "Video Prediction" techniques, and it is still in progress. Currently, it is trained on the ground-truth state in the simulator.
+The main idea building upon original VIN, is to iterate a generated step-wise reward map in the value-iteration loop, in order to learn to plan in a dynamic scene. This work can be combined with "Video Prediction" techniques, and it is still in progress. Currently, it is trained by using the ground-truth state in the simulator.
 
-We use A3C + Curriculum Learning for Rl-training scheme, similar to [[Wu et al, ICLR 2017](https://openreview.net/pdf?id=Hk3mPK5gg)]. Due to the skeleton method of pygame rendering, instead of multiple threads training at the same time, here we use multi-processes generating experience from simulator for multiple agents to learn from.
+We use A3C + Curriculum Learning for Rl-training scheme, similar to [[Wu et al, ICLR 2017](https://openreview.net/pdf?id=Hk3mPK5gg)]. Due to the skeleton method of pygame rendering, here we use multi-processes to generate experience from simulator, instead of multiple threads.
 
 ![results](./img/a.gif)
 
